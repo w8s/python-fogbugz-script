@@ -65,6 +65,7 @@ Valid options:
 
 ## Output of `-h`
 
+```
 usage: main.py [-h] [-s] [-w WORKING] [-l USER] [-m N N] [-t N N]
                [-c COMMENT COMMENT]
 
@@ -86,3 +87,4 @@ optional arguments:
                         List all active cases for USER for each project.
   -r CASE NUMBER, --resolve CASE NUMBER
                         Resolve specified case.
+```
