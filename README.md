@@ -88,3 +88,9 @@ optional arguments:
   -r CASE NUMBER, --resolve CASE NUMBER
                         Resolve specified case.
 ```
+
+# fb_pullReqs.py
+
+From commandline, run `python fb_pullReqs.py -p "[PROJECT NAME]"`. This will connect to the FogBugz instance defined in your fb_settings.py file and create a Markdown formatted file in the current working directory of all tasks of category "Requirement". 
+
+This an easy way to create a simple requirements document that is primarily edited and maintained in the FogBugz instance.
